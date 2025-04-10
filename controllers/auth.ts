@@ -6,7 +6,7 @@ import * as users from '../models/users';
 interface User {
   username: string;
   password: string;
-  // 添加其他用户属性
+
 }
 
 const verifyPassword = (user: User, password: string): boolean => {
